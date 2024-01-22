@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: 'Nunito', sans-serif;
+}
+
+header{
+    z-index: 999;
+    transition: all 1s ease-in-out;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav{
+    transition: all 1s ease-in-out;
+}
+
+nav.sticky{
+    background: #ffffff;
+    padding: 10px 0px 10px 0px!important;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.269);
+}
+
+nav.sticky {
+    color: #000;
+}
+
+nav.sticky  a{
+    color: #000;
+}
+
+.nav-link{
+  color: #000 !important;
+}
+
+.nav-link:hover{
+  color: rgb(206, 115, 224) !important;
+}
+.dropdown-menu{
+    border: 0 !important;
+}
+
+.quizTime{
+    width: 50vw;
+    height: auto;
+    object-fit: contain;
+    object-position: initial;
+}
+
+.hoverBtn{
+  background-color: #00ff2f !important;
+  border: #ffffff;
+
+  transition: all 1s ease-out;
+}
+
+.hoverBtn:hover{
+  background: -webkit-linear-gradient(left, #00ff2f, #c3ff00) !important;
+  padding:  6px 40px 6px 40px;
+}
+
+.text-size{
+    font-size: 13px;
+}
+
+.tabEdit{
+    border: none !important;
+    border-color: #ffffff !important;
+}
+
+.editBtn{
+  transition: all 0.5s ease-in-out;
+}
+
+.editBtn:hover{
+  padding:  5px 30px 5px 30px;
+}
+
+[class^=flaticon-]:before,
+[class*=" flaticon-"]:before,
+[class^=flaticon-]:after,
+[class*=" flaticon-"]:after {
+  font-size: inherit;
+  margin-left: 0;
+}
+
+.back-to-top {
+  position: fixed;
+  display: none;
+  right: 30px;
+  bottom: 30px;
+  z-index: 11;
+  animation: action 1.5s infinite alternate;
+}
+
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'Roboto', sans-serif; 
+  position: relative;
+  margin-left: 30px;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--dark);
+  outline: none;
+  transition: .5s;
+}
+
